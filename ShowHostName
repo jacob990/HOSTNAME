@@ -1,0 +1,9 @@
+import socket    
+
+hostname = socket.gethostname()    
+
+IPAddr = socket.gethostbyname(hostname)    
+
+print("il nome del tuo dispositivo:" + hostname)    
+
+print("Il tuo indirizzo è:" + IPAddr)    
